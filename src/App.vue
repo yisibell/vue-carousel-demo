@@ -1,6 +1,6 @@
 <template>
   <div>
-    <whirligig />
+    <whirligig ></whirligig>
   </div>
 </template>
 

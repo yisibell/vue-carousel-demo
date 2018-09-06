@@ -1,6 +1,6 @@
 {
   "name": "vue-whirligig",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A whirligig component for vue.js",
   "main": "src/whirligig/index.js",
   "scripts": {
