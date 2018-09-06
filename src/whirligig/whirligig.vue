@@ -63,7 +63,8 @@ export default {
           { src: '../images/slidepic2.jpg'},
           { src: '../images/slidepic3.jpg'},
           { src: '../images/slidepic4.jpg'},
-          { src: '../images/slidepic5.jpg'}
+          { src: '../images/slidepic5.jpg'},
+          { src: '../images/slidepic6.jpg'},
         )
       }
     } 
@@ -130,12 +131,6 @@ export default {
 
       //折叠间隙
       var gap = leftGap / midIndex;
-
-
-      if ( this.len % 2 == 0 ){
-        list.push( list[0] )
-      }
-
 
       list.forEach( (v,i)=>{
         var o = {}
