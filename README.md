@@ -57,7 +57,7 @@ export default {
 | data| Array of object | 展示数据 | - | 本地演示数据 | 是 |
 
 **注：**
-> `data` props 为对象数值类型， 且每个对象中必须包含 `src` (图片地址) 属性。
+> `data` props 为对象数组类型， 且每个对象中必须包含 `src` (图片地址) 属性。
 
 ## Events
 **@jump**
