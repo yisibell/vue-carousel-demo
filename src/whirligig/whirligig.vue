@@ -164,10 +164,10 @@ export default {
 
         }
 
-        obj.left = obj.left + 'px'
-        obj.width = obj.width + 'px'
-        obj.height = obj.height + 'px'
-        obj.bottom = obj.bottom + 'px'
+        obj.left += 'px'
+        obj.width += 'px'
+        obj.height += 'px'
+        obj.bottom += 'px'
 
         // obj.backgroundImage = 'url(' + v.src + ')'
         // obj.backgroundSize = "100% 100%"

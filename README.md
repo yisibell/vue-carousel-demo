@@ -11,7 +11,8 @@ cnpm install vue-whirligig --save
 ```
 
 ## Usage
-** In main.js**
+
+**In main.js**
 ``` js
 import Vue from 'vue'
 import whirligig from 'vue-whirligig'
@@ -36,7 +37,7 @@ export default {
     }
   },
   methods: {
-    jumTo(info){
+    jumpTo(info){
       // `info` is the data which you setted before 
       // so something when you click current main img
     }
