@@ -15,10 +15,9 @@
   </div>
 </template>
 
-
 <script>
 export default {
-  name: "whirligig",
+  name: "AiCarousel",
   data(){
     return {
       curr : 0,

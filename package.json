@@ -1,7 +1,7 @@
 {
-  "name": "vue-whirligig",
+  "name": "@aidol/vue-carousel",
   "version": "0.1.4",
-  "description": "A whirligig component for vue.js",
+  "description": "A carousel component for vue.js",
   "main": "src/whirligig/index.js",
   "scripts": {
     "build": "webpack",
@@ -9,15 +9,15 @@
     "start": "npm run dev"
   },
   "keywords": [
-    "whirligig",
+    "carousel",
     "vue"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yisibell/vue-whirligig.git"
+    "url": "https://github.com/yisibell/vue-carousel.git"
   },
   "bugs": {
-    "url": "https://github.com/yisibell/vue-whirligig/issues"
+    "url": "https://github.com/yisibell/vue-carousel/issues"
   },
   "author": "elenh",
   "license": "MIT",

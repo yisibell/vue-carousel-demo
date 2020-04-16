@@ -1,13 +1,14 @@
-# vue-whirligig
-A whirligig component for vue.js
+# @aidol/vue-carousel
+
+A carousel component for vue.js
 
 ## Installation
 **Using npm**
 
 ``` bash
-npm install vue-whirligig --save
+npm install @aidol/vue-carousel --save
 # or 
-cnpm install vue-whirligig --save
+cnpm install @aidol/vue-carousel --save
 ```
 
 ## Usage
@@ -15,17 +16,18 @@ cnpm install vue-whirligig --save
 **In main.js**
 ``` js
 import Vue from 'vue'
-import whirligig from 'vue-whirligig'
+import AiCarousel from '@aidol/vue-carousel'
 
-Vue.use(whirligig)
+Vue.use(AiCarousel)
 
 // new Vue({ //...})
 ```
 **In_.vue**
 ``` html
-<whirligig :containerWidth="800" :containerHeight="300" 
+<ai-carousel :containerWidth="800" :containerHeight="300" 
 :currWidth="400" :currHeight="280" :data="imgList" @jump="jumpTo" />
 ```
+
 ``` js
 export default {
   data(){
