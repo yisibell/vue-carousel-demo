@@ -25,8 +25,7 @@ Vue.use(AiCarousel)
 **In_.vue**
 
 ``` html
-<ai-carousel :containerWidth="800" :containerHeight="300" 
-:currWidth="400" :currHeight="280" :data="imgList" @jump="jumpTo" />
+<ai-carousel :containerWidth="800" :containerHeight="300" :currWidth="400" :currHeight="280" :data="imgList" @jump="jumpTo" />
 ```
 
 ``` js
@@ -97,5 +96,7 @@ export default {
 ```
 
 ## Logs
-> 2020/6/24 rebuild
-> 2018/9/6 init
+
+1. 2020/6/24 rebuild
+
+2. 2018/9/6 init
