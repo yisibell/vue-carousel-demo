@@ -1,8 +1,8 @@
 {
   "name": "@aidol/vue-carousel",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A carousel component for vue.js",
-  "main": "src/whirligig/index.js",
+  "main": "src/carousel/index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --config webpack.config.js",

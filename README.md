@@ -23,6 +23,7 @@ Vue.use(AiCarousel)
 // new Vue({ //...})
 ```
 **In_.vue**
+
 ``` html
 <ai-carousel :containerWidth="800" :containerHeight="300" 
 :currWidth="400" :currHeight="280" :data="imgList" @jump="jumpTo" />
@@ -48,7 +49,8 @@ export default {
 ```
 
 ## Properties
-|属性|类型|说明|可选值|默认值|是否必需|
+
+| 属性 | 类型 | 说明 | 可选值 | 默认值 | 是否必需 |
 | :----: | :----: | :----: | :----: | :----: | :----: |
 | containerWidth | Number | 容器宽度 | - | 800 | 否 |
 | containerHeight| Number | 容器高度 | - | 300 | 否 |
@@ -60,11 +62,26 @@ export default {
 | data| Array of object | 展示数据 | - | 本地演示数据 | 是 |
 
 **注：**
+
 > `data` props 为对象数组类型， 且每个对象中必须包含 `src` (图片地址) 属性。
 
+``` js
+[
+  { src: 'http://www.example/a.png', alt: '图片加载出错了', title: '这是图片 title' },
+  { src: 'http://www.example/b.png', alt: '图片加载出错了', title: '这是图片 title' },
+  { src: 'http://www.example/c.png', alt: '图片加载出错了', title: '这是图片 title' }
+  // ...
+]
+```
+
+图片的数据个数最好为 **奇数**，这样布局会比较协调。
+
 ## Events
+
 **@jump**
+
 > 点击主图时触发句柄
+
 ``` js
 export default {
   data(){
@@ -80,4 +97,5 @@ export default {
 ```
 
 ## Logs
+> 2020/6/24 rebuild
 > 2018/9/6 init
