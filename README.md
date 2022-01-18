@@ -2,7 +2,7 @@
 
 A carousel component for vue.js
 
-**In_.vue**
+# example
 
 ``` html
 <ai-carousel :containerWidth="800" :containerHeight="300" :currWidth="400" :currHeight="280" :data="imgList" @jump="jumpTo" />
