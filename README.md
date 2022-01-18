@@ -2,26 +2,6 @@
 
 A carousel component for vue.js
 
-## Installation
-**Using npm**
-
-``` bash
-npm install @aidol/vue-carousel --save
-# or 
-cnpm install @aidol/vue-carousel --save
-```
-
-## Usage
-
-**In main.js**
-``` js
-import Vue from 'vue'
-import AiCarousel from '@aidol/vue-carousel'
-
-Vue.use(AiCarousel)
-
-// new Vue({ //...})
-```
 **In_.vue**
 
 ``` html
