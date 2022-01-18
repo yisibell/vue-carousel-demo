@@ -1,4 +1,4 @@
-# @aidol/vue-carousel
+# vue-carousel-demo
 
 A carousel component for vue.js
 
